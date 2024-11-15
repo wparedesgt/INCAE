@@ -1,0 +1,16 @@
+
+library(tidyverse)
+library(readr)
+
+Dashboard_Cultura_Liderazgo_FCC <- read_csv("03_semana/datos/Dashboard_Cultura_Liderazgo_FCC.csv")
+
+Dashboard_Cultura_Liderazgo_FCC$Compromiso_Empleados <- Dashboard_Cultura_Liderazgo_FCC$Compromiso_Empleados /100
+Dashboard_Cultura_Liderazgo_FCC$Participacion_Capacitacion <- Dashboard_Cultura_Liderazgo_FCC$Participacion_Capacitacion / 100
+Dashboard_Cultura_Liderazgo_FCC$Proyectos_Innovacion <- Dashboard_Cultura_Liderazgo_FCC$Proyectos_Innovacion / 100
+Dashboard_Cultura_Liderazgo_FCC$Eficacia_Liderazgo <- Dashboard_Cultura_Liderazgo_FCC$Eficacia_Liderazgo /100
+Dashboard_Cultura_Liderazgo_FCC$Satisfaccion_Empleados <- Dashboard_Cultura_Liderazgo_FCC$Satisfaccion_Empleados /100
+Dashboard_Cultura_Liderazgo_FCC$Colaboracion_Interdepartamental <- Dashboard_Cultura_Liderazgo_FCC$Colaboracion_Interdepartamental / 100
+
+
+write.csv(Dashboard_Cultura_Liderazgo_FCC, '03_semana/datos/Dashboard_Cultura_Liderazgo_FCC.csv')
+
