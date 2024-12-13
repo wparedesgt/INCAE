@@ -1,0 +1,12 @@
+name: 02_caso_FCC
+title: 02_caso_FCC
+username: wsoft
+account: wsoft
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 13360444
+bundleId: 9373740
+url: https://wsoft.shinyapps.io/02_caso_FCC/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE

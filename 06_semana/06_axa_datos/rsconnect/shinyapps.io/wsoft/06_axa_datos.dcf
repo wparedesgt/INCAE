@@ -1,0 +1,12 @@
+name: 06_axa_datos
+title: 06_axa_datos
+username: wsoft
+account: wsoft
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 13553197
+bundleId: 9483652
+url: https://wsoft.shinyapps.io/06_axa_datos/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
